@@ -393,6 +393,9 @@
     .offer{
         padding: 80px 15px 0;
     }
+    .calculate-choose__props input:last-child {
+        margin-bottom: 0 !important;
+    }
 }
 
 @media (max-width: 805px){
