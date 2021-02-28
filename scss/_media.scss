@@ -393,7 +393,7 @@
     .offer{
         padding: 80px 15px 0;
     }
-    .calculate-choose__props input:last-child {
+    .calculate-choose__props.calculate-choose__height input:last-child {
         margin-bottom: 0 !important;
     }
 }
@@ -515,6 +515,9 @@
     }
     .footer-about__address.adress--color{
         margin-right: 15px;
+    }
+    .slick-dots {
+        margin-top: 25px;
     }
 }
 
