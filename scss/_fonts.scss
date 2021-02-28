@@ -1,0 +1,371 @@
+// lato 
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Black.eot');
+    src: local('../fonts/lato/Lato Black'), local('Lato-Black'),
+    url('../fonts/lato/Lato-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-Black.woff2') format('woff2'),
+    url('../fonts/lato/Lato-Black.woff') format('woff'),
+    url('../fonts/lato/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Heavy.eot');
+    src: local('../fonts/lato/Lato Heavy'), local('Lato-Heavy'),
+    url('../fonts/lato/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato/Lato-Heavy.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Heavy.woff') format('woff'),
+        url('../fonts/lato/Lato-Heavy.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-HeavyItalic.eot');
+    src: local('../fonts/lato/Lato Heavy Italic'), local('Lato-HeavyItalic'),
+    url('../fonts/lato/Lato-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-HeavyItalic.woff2') format('woff2'),
+    url('../fonts/lato/Lato-HeavyItalic.woff') format('woff'),
+    url('../fonts/lato/Lato-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-BlackItalic.eot');
+    src: local('../fonts/lato/Lato Black Italic'), local('Lato-BlackItalic'),
+    url('../fonts/lato/Lato-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-BlackItalic.woff2') format('woff2'),
+    url('../fonts/lato/Lato-BlackItalic.woff') format('woff'),
+    url('../fonts/lato/Lato-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Semibold.eot');
+    src: local('../fonts/lato/Lato Semibold'), local('Lato-Semibold'),
+    url('../fonts/lato/Lato-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-Semibold.woff2') format('woff2'),
+    url('../fonts/lato/Lato-Semibold.woff') format('woff'),
+    url('../fonts/lato/Lato-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+    
+    @font-face {
+        font-family: 'Lato';
+        src: url('../fonts/lato/Lato-MediumItalic.eot');
+        src: local('../fonts/lato/Lato Medium Italic'), local('Lato-MediumItalic'),
+        url('../fonts/lato/Lato-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato/Lato-MediumItalic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-MediumItalic.woff') format('woff'),
+        url('../fonts/lato/Lato-MediumItalic.ttf') format('truetype');
+        font-weight: 500;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Lato';
+        src: url('../fonts/lato/Lato-Bold.eot');
+        src: local('../fonts/lato/Lato Bold'), local('Lato-Bold'),
+        url('../fonts/lato/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Bold.woff') format('woff'),
+        url('../fonts/lato/Lato-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Lato';
+        src: url('../fonts/lato/Lato-BoldItalic.eot');
+        src: local('../fonts/lato/Lato Bold Italic'), local('Lato-BoldItalic'),
+        url('../fonts/lato/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato/Lato-BoldItalic.woff2') format('woff2'),
+        url('../fonts/lato/Lato-BoldItalic.woff') format('woff'),
+        url('../fonts/lato/Lato-BoldItalic.ttf') format('truetype');
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Lato';
+        src: url('../fonts/lato/Lato-Regular.eot');
+        src: local('../fonts/lato/Lato Regular'), local('Lato-Regular'),
+        url('../fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/lato/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/lato/Lato-Regular.woff') format('woff'),
+        url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    
+    @font-face {
+        font-family: 'Lato';
+        src: url('../fonts/lato/Lato-SemiboldItalic.eot');
+        src: local('../fonts/lato/Lato Semibold Italic'), local('Lato-SemiboldItalic'),
+        url('../fonts/lato/Lato-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-SemiboldItalic.woff2') format('woff2'),
+    url('../fonts/lato/Lato-SemiboldItalic.woff') format('woff'),
+    url('../fonts/lato/Lato-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Italic.eot');
+    src: local('../fonts/lato/Lato Italic'), local('Lato-Italic'),
+    url('../fonts/lato/Lato-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-Italic.woff2') format('woff2'),
+    url('../fonts/lato/Lato-Italic.woff') format('woff'),
+    url('../fonts/lato/Lato-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-ThinItalic.eot');
+    src: local('../fonts/lato/Lato Thin Italic'), local('Lato-ThinItalic'),
+    url('../fonts/lato/Lato-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-ThinItalic.woff2') format('woff2'),
+    url('../fonts/lato/Lato-ThinItalic.woff') format('woff'),
+    url('../fonts/lato/Lato-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato/Lato-Medium.eot');
+    src: local('../fonts/lato/Lato Medium'), local('Lato-Medium'),
+    url('../fonts/lato/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lato/Lato-Medium.woff2') format('woff2'),
+    url('../fonts/lato/Lato-Medium.woff') format('woff'),
+    url('../fonts/lato/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+// @font-face {
+    //     font-family: 'Lato';
+    //     src: url('Lato-Thin.eot');
+    //     src: local('Lato Thin'), local('Lato-Thin'),
+    //         url('Lato-Thin.eot?#iefix') format('embedded-opentype'),
+    //         url('Lato-Thin.woff2') format('woff2'),
+    //         url('Lato-Thin.woff') format('woff'),
+    //         url('Lato-Thin.ttf') format('truetype');
+    //     font-weight: 100;
+    //     font-style: normal;
+    // }
+    
+    // @font-face {
+        //     font-family: 'Lato Hairline';
+        //     src: url('Lato-HairlineItalic.eot');
+        //     src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'),
+        //         url('Lato-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        //         url('Lato-HairlineItalic.woff2') format('woff2'),
+        //         url('Lato-HairlineItalic.woff') format('woff'),
+        //         url('Lato-HairlineItalic.ttf') format('truetype');
+        //     font-weight: 300;
+        //     font-style: italic;
+        // }
+        
+        // @font-face {
+            //     font-family: 'Lato';
+            //     src: url('Lato-LightItalic.eot');
+            //     src: local('Lato Light Italic'), local('Lato-LightItalic'),
+            //         url('Lato-LightItalic.eot?#iefix') format('embedded-opentype'),
+            //         url('Lato-LightItalic.woff2') format('woff2'),
+            //         url('Lato-LightItalic.woff') format('woff'),
+            //         url('Lato-LightItalic.ttf') format('truetype');
+            //     font-weight: 300;
+            //     font-style: italic;
+            // }
+        
+            // @font-face {
+                //     font-family: 'Lato';
+                //     src: url('Lato-Light.eot');
+                //     src: local('Lato Light'), local('Lato-Light'),
+                //         url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+                //         url('Lato-Light.woff2') format('woff2'),
+                //         url('Lato-Light.woff') format('woff'),
+                //         url('Lato-Light.ttf') format('truetype');
+                //     font-weight: 300;
+                //     font-style: normal;
+                // }
+                
+                // @font-face {
+                    //     font-family: 'Lato Hairline';
+                    //     src: url('Lato-Hairline.eot');
+                    //     src: local('Lato Hairline'), local('Lato-Hairline'),
+                    //         url('Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+                    //         url('Lato-Hairline.woff2') format('woff2'),
+                    //         url('Lato-Hairline.woff') format('woff'),
+                    //         url('Lato-Hairline.ttf') format('truetype');
+                    //     font-weight: 300;
+                    //     font-style: normal;
+                    // }
+                    
+// Montserrat 
+/* This stylesheet generated by Transfonter (https://transfonter.org) on October 3, 2017 10:05 PM */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-Black.eot');
+    src: local('../fonts/Montserrat/Montserrat Black'), local('Montserrat-Black'),
+        url('../fonts/Montserrat/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/Montserrat-Black.woff') format('woff'),
+        url('../fonts/Montserrat/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-BlackItalic.eot');
+    src: local('../fonts/Montserrat/Montserrat Black Italic'), local('Montserrat-BlackItalic'),
+        url('../fonts/Montserrat/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/Montserrat-BlackItalic.woff') format('woff'),
+        url('../fonts/Montserrat/Montserrat-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-ExtraBold.eot');
+    src: local('../fonts/Montserrat/Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+        url('../fonts/Montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat/Montserrat-ExtraBold.woff') format('woff'),
+        url('../fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-MediumItalic.eot');
+	src: local('../fonts/Montserrat/Montserrat Medium Italic'), local('Montserrat-MediumItalic'),
+		url('../fonts/Montserrat/Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-MediumItalic.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Thin.eot');
+	src: local('../fonts/Montserrat/Montserrat Thin'), local('Montserrat-Thin'),
+		url('../fonts/Montserrat/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-Thin.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-BoldItalic.eot');
+	src: local('../fonts/Montserrat/Montserrat Bold Italic'), local('Montserrat-BoldItalic'),
+		url('../fonts/Montserrat/Montserrat-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-BoldItalic.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-SemiBold.eot');
+	src: local('../fonts/Montserrat/Montserrat SemiBold'), local('Montserrat-SemiBold'),
+		url('../fonts/Montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-ExtraBoldItalic.eot');
+	src: local('../fonts/Montserrat/Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'),
+		url('../fonts/Montserrat/Montserrat-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-ExtraBoldItalic.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Italic.eot');
+	src: local('../fonts/Montserrat/Montserrat Italic'), local('Montserrat-Italic'),
+		url('../fonts/Montserrat/Montserrat-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-Italic.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Bold.eot');
+	src: local('../fonts/Montserrat/Montserrat Bold'), local('Montserrat-Bold'),
+		url('../fonts/Montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-Bold.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-SemiBoldItalic.eot');
+	src: local('../fonts/Montserrat/Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'),
+		url('../fonts/Montserrat/Montserrat-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-SemiBoldItalic.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Regular.eot');
+	src: local('../fonts/Montserrat/Montserrat Regular'), local('Montserrat-Regular'),
+		url('../fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat/Montserrat-Medium.eot');
+	src: local('../fonts/Montserrat/Montserrat Medium'), local('Montserrat-Medium'),
+		url('../fonts/Montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat/Montserrat-Medium.woff') format('woff'),
+		url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+

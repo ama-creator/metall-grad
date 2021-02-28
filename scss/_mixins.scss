@@ -1,0 +1,37 @@
+@mixin button {
+    background: #8FD02A;
+    box-shadow: 0px 4px 10px rgba(193, 193, 193, 0.25);
+    border-radius: 0px 30px 30px 30px;
+}
+
+@mixin green-button-hover {
+    border: 2px solid #8FD02A;
+    background: transparent;
+    color: #8FD02A;
+    transition: all .4s;
+}
+
+@mixin dark-button-hover {
+    border: 2px solid $dark-btn-bg;
+    background: transparent;
+    color: $dark-btn-bg;
+    transition: all .4s;
+}
+
+@mixin gradient-section {
+    max-width: 1386px;
+    margin: 0 auto;
+    height: 577px;
+    background: linear-gradient(180deg, #CBDAEA 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 30px;
+}
+
+@mixin disabled-btn {
+    background: #EDEDED;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+@mixin contact-hover {
+    color: $active-btn-color;
+    transition: all .4s;
+}
