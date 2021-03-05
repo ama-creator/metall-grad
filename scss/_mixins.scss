@@ -13,13 +13,13 @@
 
 @mixin dark-button-hover {
     border: 2px solid $dark-btn-bg;
-    background: transparent;
     color: $dark-btn-bg;
+    background: transparent;
     transition: all .4s;
 }
 
 @mixin gradient-section {
-    max-width: 1386px;
+    max-width: 1250px;
     margin: 0 auto;
     height: 577px;
     background: linear-gradient(180deg, #CBDAEA 0%, rgba(255, 255, 255, 0) 100%);
