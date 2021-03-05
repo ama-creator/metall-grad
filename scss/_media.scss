@@ -684,6 +684,10 @@
     .next-btn--four {
         margin-left: 54%;
     }
+    .footer-logo{
+        margin-right: 0;
+        margin-bottom: 34px;
+    }
 }
 
 @media (max-width: 645px){
@@ -1060,7 +1064,7 @@
         margin-left: 0;
     }
     .calculate-wrapper {
-        padding: 71px 20px 139px 20px;
+        padding: 71px 20px 50px 20px;
     }
     .services-info__title {
         font-size: 27px;
